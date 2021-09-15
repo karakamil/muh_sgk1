@@ -141,9 +141,9 @@ namespace muh_sgk
             ebildirgev2 baglan = new ebildirgev2();
            // baglan.v2baglan ("https://ebildirge.sgk.gov.tr/EBildirgeV2/login/kullaniciIlkKontrollerGiris.action?username=" + lblkullanici.Text.ToString() + "&isyeri_kod=" + lblek.Text.ToString() + "&password=" + lblsistemsifresi.Text.ToString() + "isyeri_sifre=" + lblisyerisifresi.Text.ToString() + "&isyeri_guvenlik=" + txtv2guvenlik.Text.ToString() + "");
 
-            for (int i = 2; i < 4; i++)
+            //for (int i = 2; i < 4; i++)
             {
-                baglan.VeriAl("https://ebildirge.sgk.gov.tr/EBildirgeV2", "//*[@id='contentContainer']/div/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td["+i+"]", listBox1);
+           //     baglan.VeriAl("https://ebildirge.sgk.gov.tr/EBildirgeV2", "//*[@id='contentContainer']/div/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td["+i+"]", listBox1);
             }
 
             //webBrowser2.Navigate("https://ebildirge.sgk.gov.tr/EBildirgeV2/login/kullaniciIlkKontrollerGiris.action?username=12178849190&isyeri_kod=084&password=32978025&isyeri_sifre=70272627&isyeri_guvenlik=" + txtv2guvenlik.Text.ToString() + "");
