@@ -59,6 +59,7 @@ namespace muh_sgk
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.label15 = new System.Windows.Forms.Label();
@@ -88,7 +89,6 @@ namespace muh_sgk
             this.lblek = new System.Windows.Forms.Label();
             this.lblisyerisifresi = new System.Windows.Forms.Label();
             this.lblsistemsifresi = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -419,6 +419,14 @@ namespace muh_sgk
             this.tabPage2.Size = new System.Drawing.Size(1027, 338);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "İlk Tahakkuk Bilgileri";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(139, 130);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(731, 186);
+            this.listBox1.TabIndex = 14;
             // 
             // pictureBox2
             // 
@@ -861,14 +869,6 @@ namespace muh_sgk
             this.lblsistemsifresi.Size = new System.Drawing.Size(13, 16);
             this.lblsistemsifresi.TabIndex = 13;
             this.lblsistemsifresi.Text = "-";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(139, 130);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(731, 186);
-            this.listBox1.TabIndex = 14;
             // 
             // bildirgebilgial
             // 
