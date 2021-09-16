@@ -41,7 +41,7 @@ namespace muh_sgk
             for (int i = 3; i < (tahakkukadet.Count)+1; i++)
             {
 
-
+                //mm
 
 
 
