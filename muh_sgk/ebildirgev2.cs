@@ -65,7 +65,8 @@ namespace muh_sgk
                     listBox1.Items.Add(calisan.First().Text).ToString();
                     listBox1.Items.Add(gun.First().Text).ToString();
                     listBox1.Items.Add(spek.First().Text).ToString();
-                pdf.Click();
+                    listBox1.Items.Add(pdf.Text).ToString();
+                    pdf.Click();
                     
                     
 
@@ -86,8 +87,7 @@ namespace muh_sgk
             }
         }
 
+        
+     }
 
-
-
-    }
 }
