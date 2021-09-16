@@ -67,7 +67,7 @@ namespace muh_sgk
                     listBox1.Items.Add(spek.First().Text).ToString();
                     listBox1.Items.Add(pdf.Text).ToString();
                     pdf.Click();
-                    
+                    //deneme
                     
 
                 
